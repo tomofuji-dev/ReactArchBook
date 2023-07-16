@@ -40,6 +40,7 @@ module.exports = {
       },
     ],
     '@typescript-eslint/no-var-requires': 'off',
+    'react/react-in-jsx-scope': 'off',
   },
   overrides: [
     {
