@@ -1,7 +1,9 @@
-import { PlusSquareIcon } from '@chakra-ui/icons';
 import { Meta, StoryObj } from '@storybook/react';
 
-import { InputField } from './input-field';
+import {
+  InputField,
+  InputFieldProps,
+} from './input-field';
 
 const meta: Meta = {
   title: 'Components/InputField',
@@ -9,7 +11,7 @@ const meta: Meta = {
 };
 export default meta;
 
-type Story = StoryObj<typeof InputField>;
+type Story = StoryObj<InputFieldProps>;
 export const Default: Story = {
   args: {
     label: 'Name',
