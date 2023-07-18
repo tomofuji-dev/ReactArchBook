@@ -33,6 +33,7 @@
   },
   "devDependencies": {
     "@chakra-ui/storybook-addon": "^5.0.0",
+    "@mswjs/data": "^0.13.0",
     "@storybook/addon-essentials": "^7.0.27",
     "@storybook/addon-interactions": "^7.0.27",
     "@storybook/addon-links": "^7.0.27",
@@ -45,6 +46,11 @@
     "eslint-plugin-prettier": "^5.0.0",
     "husky": "^8.0.3",
     "lint-staged": "^13.2.3",
+    "msw": "^1.2.2",
+    "msw-devtools": "^1.0.2",
     "storybook": "^7.0.27"
+  },
+  "msw": {
+    "workerDirectory": "public"
   }
 }
