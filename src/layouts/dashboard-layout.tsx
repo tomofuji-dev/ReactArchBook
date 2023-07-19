@@ -43,13 +43,10 @@ const Navbar = () => {
       <Container maxW="container.lg" size="3xl" py="3">
         <Flex justify="space-between">
           <HStack>
-            <Link variant="solid" href="/">
-              Jobs App
-            </Link>
+            <Link href="/">Jobs App</Link>
             <HStack spacing="1">
               <Link
                 icon={<InfoOutlineIcon />}
-                variant="solid"
                 href="/dashboard/jobs"
               >
                 Jobs

@@ -29,7 +29,6 @@ const DashboardJobsPage = () => {
         <Heading>Jobs</Heading>
         <Link
           icon={<PlusSquareIcon />}
-          variant="solid"
           href="/dashboard/jobs/create"
         >
           Create Job

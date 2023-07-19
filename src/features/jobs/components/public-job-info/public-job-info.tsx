@@ -22,7 +22,6 @@ export const PublicJobInfo = ({ job }: { job: Job }) => {
         </HStack>
         <Link
           href={`/organizations/${job?.organizationId}`}
-          variant="outline"
           icon={<ViewIcon />}
         >
           View More Jobs
