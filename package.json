@@ -31,7 +31,8 @@
     "react-dom": "18.2.0",
     "react-error-boundary": "^4.0.10",
     "react-hook-form": "^7.45.1",
-    "typescript": "5.1.6"
+    "typescript": "5.1.6",
+    "zustand": "^4.3.9"
   },
   "devDependencies": {
     "@chakra-ui/storybook-addon": "^5.0.0",
@@ -43,6 +44,7 @@
     "@storybook/nextjs": "^7.0.27",
     "@storybook/react": "^7.0.27",
     "@storybook/testing-library": "^0.0.14-next.2",
+    "@tanstack/react-query-devtools": "^4.29.25",
     "eslint-config-next": "^13.4.10",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-prettier": "^5.0.0",
@@ -50,8 +52,7 @@
     "lint-staged": "^13.2.3",
     "msw": "^1.2.2",
     "msw-devtools": "^1.0.2",
-    "storybook": "^7.0.27",
-    "@tanstack/react-query-devtools": "^4.29.25"
+    "storybook": "^7.0.27"
   },
   "msw": {
     "workerDirectory": "public"
