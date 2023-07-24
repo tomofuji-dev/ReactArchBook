@@ -1,5 +1,3 @@
-import { prettyDOM } from '@testing-library/react';
-
 import DashboardJobsPage from '@/pages/dashboard/jobs';
 import { getUser } from '@/testing/mocks/utils';
 import { testData } from '@/testing/test-data';
@@ -10,9 +8,9 @@ import {
   waitForLoadingToFinish,
 } from '@/testing/test-utils';
 
-// jest.mock('@/features/auth', () => ({
-//   useUser: () => ({ data: getUser() }),
-// }));
+jest.mock('@/features/auth', () => ({
+  useUser: () => ({ data: getUser() }),
+}));
 
 describe('Dashboard Jobs Page', () => {
   it('should render the jobs list', async () => {
