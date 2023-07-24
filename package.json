@@ -13,7 +13,9 @@
     "types:check": "tsc --noEmit --pretty",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "test": "jest"
+    "jest": "jest",
+    "jest:watch": "jest --watch",
+    "jest:coverage": "jest --coverage"
   },
   "dependencies": {
     "@chakra-ui/icons": "^2.0.19",
