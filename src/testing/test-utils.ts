@@ -54,9 +54,11 @@ export const waitForLoadingToFinish = () => {
         ...screen.queryAllByText(/loading/i),
       ];
 
-      loaders.forEach((loader) =>
-        expect(loader).not.toBeInTheDocument()
-      );
+      if (loaders.length > 0) {
+        throw new Error(
+          'Loader is still present in the document'
+        );
+      }
     },
     {
       timeout: 4000,

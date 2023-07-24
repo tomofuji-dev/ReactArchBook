@@ -18,7 +18,9 @@ const DashboardJobsPage = () => {
     },
   });
 
-  if (jobs.isLoading) return <Loading />;
+  if (jobs.isLoading || user.isLoading) {
+    return <Loading />;
+  }
 
   if (!user.data) return null;
 
