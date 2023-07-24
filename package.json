@@ -12,7 +12,8 @@
     "format:fix": "npm run prettier -- --write",
     "types:check": "tsc --noEmit --pretty",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "test": "jest"
   },
   "dependencies": {
     "@chakra-ui/icons": "^2.0.19",
@@ -45,10 +46,13 @@
     "@storybook/react": "^7.0.27",
     "@storybook/testing-library": "^0.0.14-next.2",
     "@tanstack/react-query-devtools": "^4.29.25",
+    "@types/jest": "^29.5.3",
     "eslint-config-next": "^13.4.10",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-prettier": "^5.0.0",
     "husky": "^8.0.3",
+    "jest": "^29.6.1",
+    "jest-environment-jsdom": "^29.6.1",
     "lint-staged": "^13.2.3",
     "msw": "^1.2.2",
     "msw-devtools": "^1.0.2",
